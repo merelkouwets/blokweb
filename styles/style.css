@@ -3,3 +3,44 @@
   box-sizing:border-box;  
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  width: 100%;
+}
+
+img{
+  position: relative;
+  width: 100vw;
+  padding: 10px 15px;
+}
+
+h1{
+  position:absolute;
+  top: 1em;
+  left: 30vw;
+  text-align: center;
+
+  font-family: Maple Medium;
+  font-size: 400;
+  color: white;
+}
+
+h2{
+  position:absolute;
+  top: 4em;
+  left: 40vw;
+  text-align: center;
+
+  font-family: Graphik;
+  font-size: 16px;
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+ 
