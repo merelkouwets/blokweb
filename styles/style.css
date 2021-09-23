@@ -6,41 +6,223 @@
 html, body {
   margin: 0;
   padding: 0;
+
+}
+
+
+/**************/
+/* navigatie  */
+/**************/
+
+nav li a{
+  font-family: Graphik;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+nav li{
+  list-style-type: none;
+}
+
+ul{
+  padding-top: 15px;
+  width: 30%;
+  display:flex; 
+  justify-content: space-between;
+
 }
 
 section{
-  width: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 10px 15px;
 }
 
 img{
   position: relative;
-  width: 100vw;
-  padding: 10px 15px;
-}
-
-h1{
-  position:absolute;
-  top: 1em;
-  left: 30vw;
-  text-align: center;
-
-  font-family: Maple Medium;
-  font-size: 400;
-  color: white;
+  width: 100%;
+  height: 30%;
 }
 
 h2{
   position:absolute;
-  top: 4em;
-  left: 40vw;
+  top: 1em;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
 
-  font-family: Graphik;
-  font-size: 16px;
+  font-family: maple-web, sans-serif;
+  font-size: 1.25em;
+  color: white;
+  
+}
+
+h3{
+  position:absolute;
+  text-align: center;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-family: Roboto;
+  font-size: 1em;
   color: white;
   text-decoration: underline;
 }
 
+p{
+  position:absolute;
+  text-align: center;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
 
-
+  font-family: Graphik;
+  font-size: 1em;
+  color: white;
+}
  
+button{
+  position: absolute;
+  background-color: #003f59;
+  border-style: none;
+  padding: 15px;
+  border-radius: 0.5em;
+  font-size: 18px;
+  color: white;
+}
+
+
+/***************/
+/*fixed buttons*/
+/***************/
+
+.reward{
+  border-radius: 2em;
+  z-index: 2;
+  position: fixed; 
+  margin-left: 30px;
+}
+
+button img{
+  width: 20px;
+  border-radius: 2em;
+}
+
+.chat{
+  padding: 5px;
+  border-radius: 3em;
+  z-index: 2;
+  position: fixed;
+  margin-left: 300px;
+}
+
+button:nth-of-type(2) img{
+  width: 50px;
+}
+/*******************************/
+/* mossery planner kit blokje  */
+/*******************************/
+
+section:nth-of-type(5), section:nth-of-type(6) {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+section:nth-of-type(5) img, section:nth-of-type(6) img{
+  position: relative;
+  height: 100%;
+  object-fit: cover;
+}
+
+section:nth-of-type(5) p:first-of-type {
+  top: 50px;
+}
+
+section:nth-of-type(5) h2 {
+  top: 85px;
+}
+
+section:nth-of-type(5) p:nth-of-type(2){
+  width: 70%;
+  top: 125px;
+  position:absolute;
+  text-align: center;
+}
+
+button:first-of-type{
+  top:250px;
+}
+
+
+
+/*******************************/
+/* 2022 monthly planner blokje  */
+/*******************************/
+
+section:nth-of-type(6) h2 {
+  top: 75px;
+}
+
+section:nth-of-type(6) p{
+  width: 70%;
+  top: 125px;
+  position:absolute;
+  text-align: center;
+}
+
+section:nth-of-type(6) button{
+  top:225px;
+}
+
+/******************************/
+/* twinbook en undated planner*/
+/******************************/
+
+section:nth-of-type(7), section:nth-of-type(8) {
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+}
+
+section:nth-of-type(7) img, section:nth-of-type(8) img {
+  position: relative;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+/************/
+/* section 9*/
+/************/
+
+section:nth-of-type(9){
+  background-color: #e0f4f2;
+  height:250vh;
+  display:flex;
+  flex-direction:column;
+  
+}
+
+section:nth-of-type(9) p{
+  color: #003f59; 
+  position: relative;
+  top: 20px;
+}
+
+section:nth-of-type(9) h3{
+  color: #003f59; 
+  position: relative;
+  text-decoration: none;
+  
+  }
+
+video{
+  height: 30vh;
+}
+
