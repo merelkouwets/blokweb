@@ -13,13 +13,25 @@ main{
   margin-top: 3em;
 }
 
+h2{
+  position:absolute;
+  text-align: center;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-family: Roboto;
+  font-size: 1em;
+  color: white;
+  text-decoration: underline;
+}
+
+
+
 /*************/
 /* slideshow */
 /*************/
 
-section:first-of-type{
-  padding: 0;
-}
 
 section:first-of-type img{
   position: relative;
@@ -28,6 +40,7 @@ section:first-of-type img{
 }
 
 .slider {
+  padding: 0;
   width: 100%;
   text-align: center;
   overflow: hidden;
@@ -39,6 +52,10 @@ section:first-of-type img{
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
+}
+
+.slides h1 {
+  font-size: 0.3em;
 }
 
 .slides::-webkit-scrollbar {
@@ -69,6 +86,12 @@ section:first-of-type img{
   font-size: 100px;
 }
 
+
+
+
+
+
+
 /*******************************/
 /* navigatie en hamburger menu */
 /*******************************/
@@ -86,7 +109,7 @@ header{
 }
 
 nav li a{
-  font-family: Graphik;
+  font-family: Roboto;
   font-size: 16px;
   color: black;
   text-decoration: none;
@@ -95,11 +118,11 @@ nav li a{
   margin: 1em 0;
 }
 
-nav li{
+li{
   list-style-type: none;
 }
 
-ul{
+header nav ul{
   margin: 0;
   padding: 5em 1em 0;
   background: white;
@@ -169,64 +192,6 @@ font-weight: bolder;
 
 
 
-/*********************/
-/* algemene stijling */
-/*********************/
-section{
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  padding: 10px 15px;
-}
-
-img{
-  position: relative;
-  width: 100%;
-  height: 30%;
-}
-
-h2{
-  position:absolute;
-  top: 1em;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-
-  font-family: maple-web, sans-serif;
-  font-size: 1.25em;
-  color: white;
-  
-}
-
-h3{
-  position:absolute;
-  text-align: center;
-  top: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-
-  font-family: Roboto;
-  font-size: 1em;
-  color: white;
-  text-decoration: underline;
-}
-
-p{
-  position:absolute;
-  text-align: center;
-  top: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-
-  font-family: Graphik;
-  font-size: 1em;
-  color: white;
-}
- 
-
-
-
 
 
 /***************/
@@ -280,6 +245,50 @@ button:nth-of-type(2) img{
 
 
 
+/*******************************/
+/* 2022 planners en art kits   */
+/*******************************/
+
+section{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 10px 15px;
+}
+
+section p{
+  position:absolute;
+  text-align: center;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-family: Roboto;
+  font-size: 1em;
+  color: white;
+}
+
+section h1{
+  position:absolute;
+  top: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+
+  font-family: maple-web, sans-serif;
+  font-size: 1.25em;
+  color: white;
+}
+
+section img{
+  position: relative;
+  width: 100%;
+  height: 30%;
+}
+
+
+
 
 
 
@@ -303,7 +312,7 @@ section:nth-of-type(3) p:first-of-type {
   top: 50px;
 }
 
-section:nth-of-type(3) h2 {
+section:nth-of-type(3) h1 {
   top: 85px;
 }
 
@@ -335,7 +344,7 @@ section:nth-of-type(3) button{
 /* 2022 monthly planner blokje  */
 /*******************************/
 
-section:nth-of-type(4) h2 {
+section:nth-of-type(4) h1 {
   top: 75px;
 }
 
@@ -393,10 +402,19 @@ section:nth-of-type(7){
 }
 
 section:nth-of-type(7) h1{
-  font-family: Graphik;
+  font-family: Roboto;
   font-size: 1.25em;
   color: #003f59;
   padding-top: 25px;
+  position: relative;
+}
+
+section:nth-of-type(8) article h1{
+  font-family: Roboto;
+  font-size: 1em;
+  color: #003f59;
+  padding: 10px;
+  position: relative;
 }
 
 section:nth-of-type(8){
@@ -412,7 +430,7 @@ section:nth-of-type(8) article p{
   top: 0;
 }
 
-section:nth-of-type(8) article h3{
+section:nth-of-type(8) article h2{
   color: #003f59; 
   position: relative;
   text-decoration: none;
@@ -435,7 +453,66 @@ section:nth-of-type(8) article video{
 
 footer{
   background-color: #e0f4f2;
-  height: 50vh;
+  padding: 1em;
+  height: 80vh;
+}
+
+
+footer h1{
+  font-family: Roboto;
+  font-size: 1em;
+  color: #003f59;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+footer ul li a{
+  font-family: Roboto;
+  font-size: 0.85em;
+  color: #003f59;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+  margin-left: 0;
+}
+
+footer p{
+  font-family: Roboto;
+  font-size: 0.85em;
+  color: #003f59;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+}
+
+footer article {
+  padding-left: 40px;
+}
+
+footer article h1{
+  padding-top: 15px
+}
+
+footer article p{
+  margin: 0;
+}
+
+footer button{
+  position: absolute;
+  background-color: #003f59;
+  border-style: none;
+  padding: 5px;
+  border-radius: 0.5em;
+  font-size: 10px;
+  color: white;
+}
+
+footer form{
+  padding-top: 15px;
+  font-family: Roboto;
+  color: #003f59;
 }
 
 
@@ -444,8 +521,59 @@ footer{
 /* responsive */
 /**************/
 
-/* .flex{
-  display:flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-} */
+.flex section:first-of-type, .flex section:nth-of-type(2){
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 10px 15px;
+}
+
+
+
+
+
+/***********************************************************************************************/
+/*                                      about pagina                                           */
+/***********************************************************************************************/
+
+
+.about section{
+  display: block;
+}
+
+/**************/
+/*  "header"  */
+/**************/
+.about section:first-of-type{
+  padding: 0;
+}
+
+.about section:first-of-type img{
+  width: 100vw;
+  overflow-x: hidden;
+  height: 60vh;
+}
+
+.about section:first-of-type h1{
+  text-align: left;
+  font-family: Roboto;
+  font-size: 2em;
+  left: 40%;
+}
+
+
+
+
+.about section:nth-of-type(2) h1{
+  color: #003f59;
+  font-family: Roboto;
+  text-align: center;
+}
+
+
+
+.about section:nth-of-type(3) p{
+  position: relative;
+  color: #003f59;
+}
