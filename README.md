@@ -1,19 +1,10 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
+Hierbij mijn procesverslag voor de herkansing van Front-End Development. 
 
 
 ## Jij
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
 Merel Kouwets
@@ -70,66 +61,12 @@ About us pagina mossery
 
 
 
-## Voortgang 1 (week 2)
+## Voortgang voor eerste opleverdatum 
 
 <details>
-<summary>uitwerken voor 1e voortgang</summary>
+<summary>globaal de stand van zaken/verloop van het schrijven van mn code voor de eerste opleverdatum</summary>
 
-### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
-</details>
-
-
-
-
-
-## Voortgang 2 (week 3)
-
-<details>
-<summary>uitwerken voor 2e voortgang</summary>
-
-### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
+Tijdens de lessen vond ik de verschillende kleine opdrachten goed te volgen en ook zelfs wel leuk om te maken. Het probleem wat ik alleen ondervond was dat wanneer ik dan zelf aan de slag moest gaan ik niet zo goed wist waar ik moest beginnen. Wanneer het al voor je in kleine stukjes is opgebroken en je een duidelijk plan hebt vind ik het code schrijven niet heel lastig, maar toen moest zelf het plan gemaakt worden en daar liep ik een beetje vast. Hierdoor ging ik uitstellen en liep ik ene beetje achter. Voor de deadline had ik dan ook nog niet alle af en was ik zelf zeker ook niet tevreden. Wel merkte ik dat hoe verder ik kwam hoe beter het ging, ik moest er echt even inkomen. En na wat hulp van de student-assistenten ging het gelijk een stuk beter. 
 </details>
 
 
@@ -142,81 +79,43 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
-
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
+Tijdens de toekangkelijkheidstest heb ik 
 </details>
 
 
 
 
+## Beoordeling
 
-## Voortgang 3 (week 4)
+<details>
+<summary>feedback eerste oplevering</summary>
+
+Feedback die ik kreeg op mijn werk was opzich niks verassends, waar ik opzich heel blij mee was. 
+</details>
+
+
+## aanpassingen surface plane
 
 <details>
 <summary>uitwerken voor 3e voortgang</summary>
 
-### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Ik vond het lastig op welke plekken ik de surface plane verder kon uitwerken. Ik heb onderanderen een effect op de button toegevoegd, ook in de menubalk als je over de tekst heen hovered wordt deze tekst nu dikgedrukt. Bij de slide-show op de tweede pagina heb ik er nu voor gezorgd dat de scroll-bar niet zichtbaar is. Dit geeft het gevoel/looks dat het echt een soort carrousel is. (in combinatie met de scrol-snap functie, maar die had ik al eerder toegevoegd)
 
 </details>
 
 
 
-
-
-## Eindgesprek (week 5)
+## toevoeging van het Grid
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
+<summary>grid tweede pagina</summary>
+Om de tweede pagina andere content te laten bevatten heb ik besloten een deel van een andere pagina op de "echte" site hier toe te voegen en een grid te bouwen (in tegestelling tot de eerste pagina waar ik sections los heb gestyled). Ik ben begonnen met een schets van hoe ik het grid eruit zou willen hebben zien met de gridlines erbij: 
 
-### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+<img src="images/Schermafbeelding 2021-11-10 om 12.22.09" width="375px" alt="De pagina waar meer uitleg staat over het bedrijf">
 
-### Screenshot(s)
+Het bouwen van dit grid zelf vervolgens was niet zo heel lasitg, dat ging redelijk soepel. Vervolgens was mn plan om in elk divje van het grid een afbeelding toe te voegen, maar om een of andere reden wilde dit niet werken... Ik heb t op verschillende manieren geprobeerd maar de afbeelding wilde niet netjes het vakje van de div vullen. Mijn plan was om vervolgens met background-image in css ervoor te zorgen dat wanneer je over een afbeelding van een schetsboek hovered in het grid je de achterkant van het boekje te zien krijgt. maar dit is dus niet gelukt. 
 
-hier screenshot(s) van je eindresultaat
+
 
 </details>
 
